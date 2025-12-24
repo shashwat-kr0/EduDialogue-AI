@@ -1,0 +1,24 @@
+{
+  "name": "edudialogue-backend",
+  "version": "1.0.0",
+  "description": "Backend server for EduDialogue AI - Interactive Study Tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["education", "ai", "study-tool"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pdf-parse": "^1.1.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

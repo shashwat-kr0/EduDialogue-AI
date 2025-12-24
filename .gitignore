@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+
+# Production
+build/
+dist/
+
+
+
+# Environment Variables (Sensitive Data)
+.env
+
+
